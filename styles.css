@@ -30,16 +30,19 @@ body {
   display: flex;
 }
 
-@media (max-width: 650px){
-    .info {
-        display: block;
-        text-align: center;
-    }
-}
-
 .info-text {
   margin-left: 40px;
 }
+
+@media (max-width: 650px){
+    .info {
+        display: block;
+    }
+    .info-text{
+        margin: 0;
+    }
+}
+
 
 .card {
   border-radius: 20px;
@@ -69,7 +72,7 @@ body {
 
 #my-image {
   width: 350px;
-  height: 300px;
+  height: 240px;
   border-radius: 28px;
   box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
 }
