@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,100&family=Montserrat&display=swap");
+body {
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  background-color: #f1f1f1;
+  color: black;
+  padding: 5px;
+
+}
+
+.container {
+  max-width: 750px;
+  margin: auto;
+  padding-top: 30px;
+}
+
+.info-text p {
+  font-style: italic;
+  font-weight: bold;
+  margin: 0;
+}
+
+.info-text h2 {
+  margin-bottom: 10px;
+}
+
+.info {
+  margin-bottom: 20px;
+  display: flex;
+}
+
+@media (max-width: 650px){
+    .info {
+        display: block;
+        text-align: center;
+    }
+}
+
+.info-text {
+  margin-left: 40px;
+}
+
+.card {
+  border-radius: 20px;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+}
+
+.card h2 {
+  margin-bottom: 10px;
+}
+
+.card ol {
+  padding: 0 20px;
+}
+
+.bg-green {
+  background-color: rgba(0, 255, 0, 0.5);
+}
+
+.bg-red {
+  background-color: rgba(255, 0, 0, 0.5);
+}
+
+.bg-yellow {
+  background-color: rgba(255, 255, 0, 0.5);
+}
+
+#my-image {
+  width: 350px;
+  height: 300px;
+  border-radius: 28px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.btn {
+  border: none;
+  border-radius: 20px;
+  background-color: white;
+  padding: 15px 20px;
+  font-family: inherit;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.btn:hover {
+  opacity: 0.95;
+}
+
+.table {
+  width: 100%;
+  padding-right: 20px;
+}
+
+.contact h2 {
+  text-align: center;
+}
+
+.form-group label {
+  display: block;
+  font-size: 16px;
+}
+
+.form-row .form-group {
+  display: inline-block;
+  margin-right: 20px;
+  width: 46%;
+}
+
+@media (max-width: 650px){
+    .form-row{
+        display: block;
+    }
+
+    .form-row .form-group{
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+.form-row {
+  margin-bottom: 10px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  color: black;
+  border-bottom: 1px solid grey;
+  padding: 15px 0 10px;
+  outline: none;
+  font-family: inherit;
+}

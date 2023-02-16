@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Waer_'s CV site" />
+    <meta name="keywords" content="Waer_, cv, resume" />
+    <title>Waer_'s CV</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="info">
+        <img
+          id="my-image"
+          src="/img/me.jpg"
+          alt="There's supposed to be a pic of a cute doggo, but something went wrong"
+        />
+        <div class="info-text">
+          <h1>Waer_</h1>
+          <p>
+            Hi there! <br />
+            Waer_ is here, thanks for stopping by. <br />
+            I'm new to Web-development and need some expirience on the Frontend
+            side of it, so here's a simple site.
+          </p>
+          <h2>Social's Links:</h2>
+          <a href="https://vk.com/waermod" target="_blank"
+            ><img src="/img/vk_logo.svg" alt="VK Link" width="50"
+          /></a>
+          <a href="https://t.me/waerxd" target="_blank">
+            <img src="/img/Telegram_logo.png" alt="TG Link" width="50"
+          /></a>
+        </div>
+      </div>
+
+      <div class="card bg-green">
+        <h2>Hobbies</h2>
+        <ol>
+          <li>Sleep</li>
+          <li>Maybe write some code</li>
+          <li>Watch series</li>
+          <li>Sleep</li>
+        </ol>
+      </div>
+
+      <div class="card bg-red">
+        <h2>Experience</h2>
+        <table class="table">
+          <tbody>
+            <tr>
+              <td>School</td>
+              <td>Student</td>
+              <td>2009-2020</td>
+            </tr>
+            <tr>
+              <td>University</td>
+              <td>Student</td>
+              <td>2020-Now</td>
+            </tr>
+            <tr>
+              <td>Solo Coding</td>
+              <td>Fullstack</td>
+              <td>2022-Now</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="card">
+        <form class="contact">
+          <h2>Contact me</h2>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Your name</label>
+              <input type="text" placeholder="Enter your name" id="name" />
+            </div>
+            <div class="form-group">
+              <label for="email">Your email</label>
+              <input type="text" placeholder="Enter your email" id="email" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="message">Your message</label>
+            <textarea
+              placeholder="Enter your message..."
+              id="message"
+              cols="25"
+              rows="5"
+            ></textarea>
+          </div>
+          <button type="submit" class="btn">Send message</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
